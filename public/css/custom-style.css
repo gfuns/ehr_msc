@@ -1,0 +1,152 @@
+/* your custom style goes here */
+
+/* Reserve Address Tooltip */
+ .metareserveaddresstitle {
+      position: relative;
+      display: inline-block;
+      
+  }
+
+  .metareserveaddresstitle .metareserveaddresstext {
+      visibility: hidden;
+      width: 360px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -60px;
+  }
+
+  .metareserveaddresstitle .metareserveaddresstext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black transparent transparent transparent;
+  }
+
+  .metareserveaddresstitle:hover .metareserveaddresstext {
+      visibility: visible;
+  }
+  
+  
+  /* Manager Address Tooltip */
+  .metamanageraddresstitle {
+      position: relative;
+      display: inline-block;
+      
+  }
+
+  .metamanageraddresstitle .metamanageraddresstext {
+      visibility: hidden;
+      width: 360px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -60px;
+  }
+
+  .metamanageraddresstitle .metamanageraddresstext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black transparent transparent transparent;
+  }
+
+  .metamanageraddresstitle:hover .metamanageraddresstext {
+      visibility: visible;
+  }
+
+
+/* Freeze Address Tooltip */
+  .metafreezeaddresstitle {
+      position: relative;
+      display: inline-block;
+      
+  }
+
+  .metafreezeaddresstitle .metafreezeaddresstext {
+      visibility: hidden;
+      width: 360px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -60px;
+  }
+
+  .metafreezeaddresstitle .metafreezeaddresstext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black transparent transparent transparent;
+  }
+
+  .metafreezeaddresstitle:hover .metafreezeaddresstext {
+      visibility: visible;
+  }
+  
+  
+  /* Clawback Address Tooltip */
+  .metaclawbackaddresstitle {
+      position: relative;
+      display: inline-block;
+      
+  }
+
+  .metaclawbackaddresstitle .metaclawbackaddresstext {
+      visibility: hidden;
+      width: 360px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -60px;
+  }
+
+  .metaclawbackaddresstitle .metaclawbackaddresstext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black transparent transparent transparent;
+  }
+
+  .metaclawbackaddresstitle:hover .metaclawbackaddresstext {
+      visibility: visible;
+  }
